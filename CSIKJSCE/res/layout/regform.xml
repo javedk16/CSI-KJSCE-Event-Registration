@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008299" >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="abhiyantriki'13 (KJSCE)"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/myxml"
+                android:ems="10"
+                android:hint="Name"
+                android:layout_gravity="center" />
+            
+            <EditText
+                android:id="@+id/rollno"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/myxml"
+                android:ems="10"
+                android:hint="Roll No."
+                android:layout_gravity="center" />
+            
+
+    <Spinner
+        android:id="@+id/branch"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/branch"
+        android:prompt="@string/hello_world"
+        android:background="@drawable/myxml"
+        android:layout_marginTop="10dp" 
+        android:layout_gravity="center">
+    </Spinner>
+    
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/year"
+        android:prompt="@string/hello_world"
+        android:background="@drawable/myxml"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" >
+    </Spinner>
+    
+    <Spinner
+        android:id="@+id/divison"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/division"
+        android:prompt="@string/hello_world"
+        android:background="@drawable/myxml"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" >
+    </Spinner>
+    
+    <Spinner
+        android:id="@+id/event"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/event"
+        android:prompt="@string/hello_world"
+        android:background="@drawable/myxml"
+        android:layout_marginTop="10dp" 
+        android:layout_gravity="center">
+    </Spinner>
+    
+    <EditText
+                android:id="@+id/phone"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/myxml"
+                android:ems="10"
+                android:hint="Phone No."
+                android:layout_gravity="center" />
+            
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/myxml"
+                android:ems="10"
+                android:hint="Email"
+                android:layout_gravity="center" />
+    
+    
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" 
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:onClick="register"/>
+    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
